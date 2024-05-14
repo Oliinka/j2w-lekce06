@@ -12,6 +12,8 @@
     <form class="kosik" action="/alkohol" method="post">
         <h1>Objednávka alkoholu</h1>
         <label for="zbozi" class="radek">Zboží:</label>
+
+        <!-- tohle je pole nebo mapa-->
         [@spring.formSingleSelect path="form.zbozi" options={
         "": "",
         "1": "Veltlín – Sauvignon kabinet",

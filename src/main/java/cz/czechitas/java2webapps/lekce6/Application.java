@@ -20,3 +20,5 @@ public class Application {
         logger.info("Aplikace běží na adrese: http://localhost:{}", applicationContext.getEnvironment().getProperty("local.server.port"));
     }
 }
+// Validace na objektech ne na formuláři
+//není servisa měla by být pro formu

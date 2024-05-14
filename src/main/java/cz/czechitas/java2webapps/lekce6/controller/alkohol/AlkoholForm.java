@@ -3,12 +3,12 @@ package cz.czechitas.java2webapps.lekce6.controller.alkohol;
 import jakarta.validation.constraints.*;
 
 /**
- *
+ *tohle je javabeana
  */
 public class AlkoholForm {
-    @NotBlank
+    @NotBlank // validace musí být aby tam nebyl prázdný string- což není null hodnota
     private String zbozi;
-    @NotNull
+    @NotNull //validace - musí být nějaká hodnota - pro objekt
     private Objem objem;
     @NotBlank
     private String jmeno;
